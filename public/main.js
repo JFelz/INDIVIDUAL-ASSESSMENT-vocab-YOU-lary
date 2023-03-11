@@ -7,7 +7,7 @@ const init = () => {
   document.querySelector('#app').innerHTML = `
   <div style="color: white">
   <h1><b>RECALL</b></h1>
-  <h5>The Scripture Memorization App.</h5>
+  <h5>The Anatomy Memorization App.</h5>
   <br />
   <button type="button" class="btn btn-primary" id="signIn_Btn">Sign In</button>
   </div>`;
