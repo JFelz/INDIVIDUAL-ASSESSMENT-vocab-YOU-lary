@@ -60,13 +60,13 @@ Create issue tickets from the items below to help you get started.
 - [ ] CREATE a vocabulary entry:
   - [ ] Title
   - [ ] Definition
-  - [ ] Language/Tech
-  - [ ] Time submitted - Not on form. Handle in your JS
-  - [ ] user ID - Not on form. Pull from User object.
+  <!-- - [ ] Language/Tech -->
+  <!-- - [ ] Time submitted - Not on form. Handle in your JS
+  - [ ] user ID - Not on form. Pull from User object. -->
 - [ ] READ THIER entries
 - [ ] UPDATE THEIR entries
 - [ ] DELETE THEIR entries
-- [ ] Filter by language/tech
+<!-- - [ ] Filter by language/tech -->
 - [ ] Style your application using your own creativity!
 - [ ] No errors - linters should be clean
 
