@@ -16,7 +16,7 @@ const navBar = () => {
           <a class="nav-link" href="#" id="allcards">My Cards</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Favorite Cards</a>
+          <a class="nav-link" href="#" id="favcards">Favorite Cards</a>
         </li>
       </ul>
     </div>
