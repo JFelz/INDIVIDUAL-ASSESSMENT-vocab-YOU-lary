@@ -1,5 +1,6 @@
 import { getCards } from '../api/cardData';
 import { addCardBtn } from '../components/forms/addCardForm';
+import logoutButton from '../components/logoutButton';
 import domEvents from '../Events/domEvents';
 import formEvents from '../Events/formEvents';
 import navEvents from '../Events/navEvents';
@@ -12,6 +13,7 @@ const startApp = () => {
   domEvents();
   navBar();
   navEvents();
+  logoutButton();
   addCardBtn();
   formEvents();
 

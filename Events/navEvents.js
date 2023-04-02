@@ -1,5 +1,6 @@
 import { showCards } from '../pages/Cards';
 import { favoriteCards, getCards } from '../api/cardData';
+import { signOut } from '../utils/auth';
 
 const navEvents = () => {
 // SHOW ALL CARDS
@@ -10,6 +11,8 @@ const navEvents = () => {
   document.querySelector('#favcards').addEventListener('click', () => {
     favoriteCards().then(showCards);
   });
+
+  document.querySelector('#logoutBtn').addEventListener('click', signOut);
 };
 
 export default navEvents;

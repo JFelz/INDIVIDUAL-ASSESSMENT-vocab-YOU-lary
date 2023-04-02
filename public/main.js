@@ -15,9 +15,8 @@ const init = () => {
   document
     .querySelector('#signIn_Btn')
     .addEventListener('click', () => ViewDirectorBasedOnUserAuthStatus());
-
-  // USE WITH FIREBASE AUTH
-  // ViewDirectorBasedOnUserAuthStatus();
 };
 
 init();
+
+export default init;

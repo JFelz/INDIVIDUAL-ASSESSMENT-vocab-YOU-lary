@@ -18,6 +18,11 @@ const navBar = () => {
         <li class="nav-item">
           <a class="nav-link" href="#" id="favcards">Favorite Cards</a>
         </li>
+        <div style="justify-content:end;>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="logoutBtn">Logout</a>
+          </li>
+        </div>
       </ul>
     </div>
   </div>
